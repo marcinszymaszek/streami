@@ -1,0 +1,13 @@
+.main-container {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    line-height: normal;
+    font-size: 1rem;
+
+    @include bp(lg) {
+        font-size: 1.2em;
+    }
+
+    @include bp(sm) {
+        font-size: 1.1em;
+    }
+}

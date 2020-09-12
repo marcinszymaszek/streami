@@ -1,0 +1,47 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.header-container {
+    background-image: url(../../styles/cinema_hall.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    @include bp(lg) {
+        height: 70vh;
+    }
+    @include bp(xs) {
+        font-size: 2rem;
+    }
+}
+
+#header-module {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.header-title {
+    color: $lightGrey;
+    margin-bottom: 30px;
+    @include bp(lg) {
+        font-size: 2.5rem;
+    }
+    @include bp(xs) {
+        font-size: 2rem;
+    }
+}
+
+.btn-warning {
+    @include bp(xs) {
+        width: 100%;
+        transform: scale(0.8);
+    }
+}

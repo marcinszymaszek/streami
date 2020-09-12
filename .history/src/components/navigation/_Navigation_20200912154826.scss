@@ -1,0 +1,49 @@
+@import "../../styles/scss/helpers";
+
+.streami-logo {
+    padding-top: .5rem;
+    height: 45px;
+    width: 220px;
+
+    @include bp(lg) {
+        height: 45px;
+        width: 190px;
+    }
+
+    @include bp(xs) {
+        height: 45px;
+        width: 150px;
+    }
+}
+
+#nav-module {
+    margin: 0 10;
+    padding: 0 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+}
+
+.navigation-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 30px 30px 0px 30px;
+
+    @include bp(lg) {
+        margin: 25px 25px 0px 25px;
+    }
+
+    @include bp(xs) {
+        margin: 20px 20px 0px 20px;
+    }
+}
+
+.btn-danger {
+    @include bp(xs) {
+        transform: scale(0.8);
+    }
+}

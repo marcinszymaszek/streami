@@ -1,0 +1,38 @@
+.main-container {
+  font-family: Lato, sans-serif;
+  line-height: normal;
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#header-module {
+  margin: 0 0;
+  padding: 0 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+}
+
+.img-container {
+  height: 50vh;
+  margin: 100px 0px;
+  padding: 100px 0px;
+}
+
+.streami-logo {
+  height: 20;
+  width: 100;
+}
+
+/*# sourceMappingURL=styles.css.map */

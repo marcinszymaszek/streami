@@ -1,0 +1,11 @@
+//general style modules
+@import "scss/helpers.scss";
+@import "scss/basic.scss";
+
+//components styles
+@import "../components/main/App";
+@import "../components/home-page/HomePage";
+@import "../components/header/Header";
+@import "../components/navigation/Navigation"; 
+
+
