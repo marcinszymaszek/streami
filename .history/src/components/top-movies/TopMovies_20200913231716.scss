@@ -1,0 +1,29 @@
+@import "../../styles/scss/colors";
+
+.movies-labels-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 10% 2% 10%;
+}
+
+#movie-title {
+
+}
+
+#movie-subtitle {
+    color: $darkGrey;
+    font-size: 0.8rem;
+}
+
+.movie-label{
+    width: 10%;
+    margin-bottom: 2%;
+    // overflow: hidden;
+    white-space: nowrap; 
+    // width: 50px; 
+    overflow: hidden;
+    text-overflow: clip; 
+    flex: 1 0 21%; /* explanation below */
+}

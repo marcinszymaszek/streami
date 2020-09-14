@@ -1,0 +1,12 @@
+@import "../../styles/scss/colors";
+
+#movie-list-pagination{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+#movie-pag-link{
+    color: $gold;
+}

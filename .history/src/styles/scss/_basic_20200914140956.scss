@@ -1,0 +1,32 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+// html {
+//     scroll-behavior: smooth;
+// }
+
+.main-container {
+    font-family: Lato, sans-serif;
+    line-height: normal;
+}
+
+.container-title {
+    color: $lightGrey;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    @include center-element;
+
+    @include bp(lg) {
+        font-size: 2.5rem;
+    }
+
+    @include bp(xs) {
+        font-size: 2rem;
+    }
+}
+
+button {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}

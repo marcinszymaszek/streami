@@ -1,0 +1,25 @@
+@import "../../styles/scss/colors";
+
+.main-container {
+    font-family: Lato, sans-serif;
+    line-height: normal;
+}
+
+.container-title {
+    color: $lightGrey;
+    margin-bottom: 30px;
+
+    @include bp(lg) {
+        font-size: 2.5rem;
+    }
+
+    @include bp(xs) {
+        font-size: 2rem;
+    }
+}
+
+button {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}

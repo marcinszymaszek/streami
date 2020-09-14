@@ -1,0 +1,55 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+#movie-list-pagination {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.page-link {
+    border: 1px solid $gold;
+    color: $gold;
+    background-color: transparent;
+
+    &:hover {
+        border: 1px solid $gold;
+        background-color: $gold !important;
+        color: $cinemaBlack;
+        opacity: 0.9;
+    }
+}
+
+.page-link.active {
+    background-color: $gold !important;
+    color: $cinemaBlack;
+}
+
+#pagination-module {
+    background-color: $cinemaBlack;
+    @include center-element;
+}
+
+.mobile-go-top-link {
+    display: none;
+
+    @include bp(xs) {
+        display: block;
+    }
+
+}
+
+.mobile-go-top-link {
+    color: $gold;
+    text-decoration: none;
+
+    &:active {
+        color: $gold;
+        text-decoration: none;
+    }
+    &:focus{
+        color: $gold;
+        text-decoration: none;
+    }
+}

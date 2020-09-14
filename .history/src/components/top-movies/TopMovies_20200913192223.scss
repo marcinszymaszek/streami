@@ -1,0 +1,42 @@
+@import "../../styles/scss/colors";
+
+.movies-labels-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+#movie-title {
+    word-wrap: break-word !important;
+}
+
+#movie-subtitle {
+    color: $darkGrey;
+    font-size: 0.8rem;
+}
+
+.text-under {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 10px;
+    white-space: nowrap;
+    color: #999;
+
+    &::after {
+        display: block;
+        position: absolute;
+        content: "";
+        top: 7px;
+        right: 0;
+        bottom: 0;
+        width: 20px;
+        z-index: 1;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 1)));
+        background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    }
+}

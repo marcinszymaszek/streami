@@ -1,38 +1,18 @@
-.main-container {
-  font-family: Lato, sans-serif;
-  line-height: normal;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "../../styles/scss/colors";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   ..\components\top-movies\top-movies\topmovies.scss 1:9  @import
+ *   styles.scss 10:9                                        root stylesheet */
 
-button {
-  outline: none !important;
-  box-shadow: none !important;
-  border: none !important;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"../../styles/scss/colors\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   ..\\components\\top-movies\\top-movies\\topmovies.scss 1:9  @import\a   styles.scss 10:9                                        root stylesheet";
 }
-
-#header-module {
-  margin: 0 0;
-  padding: 0 0;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-}
-
-.header-img {
-  width: 100%;
-  height: auto;
-}
-
-.img-container {
-  height: 50vh;
-  margin: 100px 0px;
-  padding: 100px 0px;
-}
-
-.streami-logo {
-  height: 20;
-  width: 100;
-}
-
-/*# sourceMappingURL=styles.css.map */

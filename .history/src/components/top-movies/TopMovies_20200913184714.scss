@@ -1,0 +1,13 @@
+.movies-labels-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 50px 0px;
+}
+
+#movie-title{
+    width: 80%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}

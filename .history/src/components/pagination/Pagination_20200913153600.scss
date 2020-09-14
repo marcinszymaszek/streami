@@ -1,0 +1,21 @@
+@import "../../styles/scss/colors";
+
+#movie-list-pagination {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+
+.page-link {
+    color: $gold;
+    background-color: transparent;
+    &:focus {
+        background-color: $gold !important;
+    }
+    &:hover {
+        background-color: $gold !important;
+    }
+
+}

@@ -1,0 +1,61 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.movies-labels-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3% 10% 2% 10%;
+}
+
+#movie-title {}
+
+#movie-subtitle {
+    color: $darkGrey;
+    font-size: 0.8rem;
+}
+
+.movie-label {
+    width: 7%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    white-space: nowrap;
+    flex: 1 0 10%;
+    text-align: center !important;
+
+    @include bp(lg) {
+        flex: 1 0 21%;
+    }
+
+    @include bp(xs) {
+        flex: 1 0 41%;
+    }
+}
+
+.text-under {
+    width: 113px;
+    overflow: hidden;
+    margin-left: 12%;
+    text-align: left !important;
+
+    &::after{
+    // display: block;
+    // position: absolute;
+    // content: "";
+    // top: 7px;
+    // right: 0;
+    // bottom: 0;
+    // width: 20px;
+    // z-index: 1;
+    // background: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,1)));
+    // background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1));
+    content: '';
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    pointer-events: none;
+    background:linear-gradient(transparent 150px, white);
+    }
+}
