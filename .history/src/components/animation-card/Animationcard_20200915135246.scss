@@ -1,0 +1,63 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.animation-card {
+    @include basic-card-style;
+
+    @include bp(lg) {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+.card-animation {
+    transform: scale(0.8);
+    width: 100%;
+    height: auto;
+
+    @include bp(lg) {
+        transform: scale(0.9);
+    }
+
+    @include bp(xs) {
+        transform: none;
+    }
+}
+
+.container-text {
+    margin-left: 50px;
+
+    @include bp(lg) {
+        margin-left: 0px;
+    }
+}
+
+#card-animation-module {
+    @include bp(lg) {
+        order: 1;
+    }
+}
+
+//iframe
+
+
+
+.card-video,
+.card-img.video-background {
+    transform: scale(0.9);
+    width: 100%;
+    height: auto;
+}
+
+.card-img.video-background {
+    z-index: 3;
+    position: relative;
+}
+
+.container-animation {
+    z-index: 2;
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+}

@@ -55,6 +55,54 @@ button {
   border: none !important;
 }
 
+.card-title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  .card-subtitle {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .card-subtitle {
+    margin-bottom: 30px;
+  }
+}
+
+.card-title,
+.card-subtitle {
+  text-align: left;
+  color: #eeeeee;
+  line-height: 1.3;
+}
+@media (max-width: 1199px) {
+  .card-title,
+.card-subtitle {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .card-title,
+.card-subtitle {
+    text-align: center;
+  }
+}
+
+#card-txt-module {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-text {
+  text-align: center;
+}
+
 .header-container {
   background-image: url(../../styles/cinema_hall.jpg);
   background-attachment: fixed;
@@ -305,9 +353,6 @@ button {
 }
 
 .story-card {
-  display: flex;
-  align-items: stretch;
-  flex-direction: row;
   background-color: #080e1c;
   border-top: 2px solid #a0a0a0;
   padding: 3% 10% 2% 10%;
@@ -318,6 +363,31 @@ button {
   width: 100%;
   height: auto;
 }
+@media (max-width: 1199px) {
+  .story-card-img {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 576px) {
+  .story-card-img {
+    transform: none;
+  }
+}
+
+.story-card-title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  .story-card-subtitle {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .story-card-subtitle {
+    margin-bottom: 30px;
+  }
+}
 
 .story-card-title,
 .story-card-subtitle {
@@ -325,8 +395,20 @@ button {
   color: #eeeeee;
   line-height: 1.3;
 }
+@media (max-width: 1199px) {
+  .story-card-title,
+.story-card-subtitle {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .story-card-title,
+.story-card-subtitle {
+    text-align: center;
+  }
+}
 
-#story-card-module {
+#story-card-txt-module {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -334,6 +416,114 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-text,
+.container-img {
+  margin-left: 50px;
+}
+@media (max-width: 1199px) {
+  .container-text,
+.container-img {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .container-text,
+.container-img {
+    margin-left: 0px;
+  }
+}
+
+.container-text {
+  text-align: center;
+}
+
+.story-card {
+  background-color: #080e1c;
+  border-top: 2px solid #a0a0a0;
+  padding: 3% 10% 2% 10%;
+}
+
+.card-img {
+  transform: scale(0.8);
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1199px) {
+  .card-img {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 576px) {
+  .card-img {
+    transform: none;
+  }
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  .story-card-subtitle {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .story-card-subtitle {
+    margin-bottom: 30px;
+  }
+}
+
+.story-card-title,
+.card-subtitle {
+  text-align: left;
+  color: #eeeeee;
+  line-height: 1.3;
+}
+@media (max-width: 1199px) {
+  .story-card-title,
+.card-subtitle {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .story-card-title,
+.card-subtitle {
+    text-align: center;
+  }
+}
+
+#card-txt-module {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-text,
+.container-img {
+  margin-left: 50px;
+}
+@media (max-width: 1199px) {
+  .container-text,
+.container-img {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .container-text,
+.container-img {
+    margin-left: 0px;
+  }
+}
+
+.container-text {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
