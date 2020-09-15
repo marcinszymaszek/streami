@@ -1,0 +1,48 @@
+//mixins
+
+@mixin bp($point) {
+    @if $point==xs {
+        @media (max-width: 576px) {
+            @content
+        }
+    }
+
+    @else if $point==sm {
+        @media (max-width: 767px) {
+            @content
+        }
+    }
+
+    @else if $point==md {
+        @media (max-width: 991px) {
+            @content
+        }
+    }
+
+    @else if $point==lg {
+        @media (max-width: 1199px) {
+            @content
+        }
+    }
+
+    @else {
+        @media (max-width: $point) {
+            @content
+        }
+    }
+}
+
+;
+
+@mixin center-element {
+    display: flex;
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin basic-card-style {
+    background-color: $cinemaBlack;
+    border-top: 2px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}

@@ -1,0 +1,32 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.footer {
+    background-color: $cinemaLightBlack;
+    border-top: 8px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.social-media-list,
+.links-list {
+    list-style: none;
+
+    li a {
+        color: $footerGrey;
+        text-decoration: none;
+
+        &:hover {
+            color: $footerDarkGrey;
+        }
+    }
+}
+
+.copyright {
+    color: $copyrightGrey;
+}
+
+.footer-container {
+    @include center-element;
+    flex-flow: row ;
+    flex-direction: row;
+}

@@ -1,0 +1,66 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.footer {
+    background-color: $cinemaLightBlack;
+    border-top: 8px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.links,
+.social-media {
+    border-bottom: 1px solid $footerGrey;
+    margin: 10px 0px;
+}
+
+.social-media-list,
+.links-list {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    padding-left: 0;
+    li {
+        margin: 0px 30px;
+
+        @include bp(lg) {
+            margin: 0px 15px;
+        }
+
+    }
+
+    li a {
+        color: $footerGrey;
+        text-decoration: none;
+
+        &:hover {
+            color: $footerDarkGrey;
+        }
+    }
+}
+
+.copyright {
+    color: $copyrightGrey;
+    margin: 10px 0px;
+}
+
+.footer-container {
+    @include center-element;
+}
+
+
+.links-list {
+
+    @include bp(xs) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    li {
+        @include bp(xs) {
+            margin: 5px 0px;
+        }
+
+    }
+
+}

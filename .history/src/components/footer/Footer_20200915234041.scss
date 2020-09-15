@@ -1,0 +1,46 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.footer {
+    background-color: $cinemaLightBlack;
+    border-top: 8px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.links,
+.social-media,
+.copyright {
+    border-bottom: 1px solid $footerGrey;
+    // font-weight: 300;
+    margin: 10px 5px;
+    padding: 0;
+}
+
+.social-media-list,
+.links-list {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+
+
+    li {
+        margin: 0px 30px;
+    }
+
+    li a {
+        color: $footerGrey;
+        text-decoration: none;
+
+        &:hover {
+            color: $footerDarkGrey;
+        }
+    }
+}
+
+.copyright {
+    color: $copyrightGrey;
+}
+
+.footer-container {
+    @include center-element;
+}

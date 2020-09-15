@@ -1,0 +1,50 @@
+@import "../../styles/scss/colors";
+@import "../../styles/scss/helpers";
+
+.footer {
+    background-color: $cinemaLightBlack;
+    border-top: 8px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.social-media-list,
+.links-list {
+    list-style: none;
+    padding: 25px 15px 15px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+    li a {
+        color: $footerGrey;
+        text-decoration: none;
+
+        &:hover {
+            color: $footerDarkGrey;
+        }
+    }
+}
+
+.copyright {
+    color: $copyrightGrey;
+}
+
+.footer-container {
+    @include center-element;
+    flex-flow: row;
+    flex-direction: row;
+}
