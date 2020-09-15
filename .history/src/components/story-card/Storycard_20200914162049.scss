@@ -1,0 +1,13 @@
+@import "../../styles/scss/colors";
+
+.story-card {
+    display: inline;
+    background-color: $cinemaBlack;
+    border-top: 2px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.story-card-img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,40 @@
+@import "../../styles/scss/colors";
+
+.story-card {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    background-color: $cinemaBlack;
+    border-top: 2px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.story-card-img {
+    transform: scale(0.8);
+    width: 100%;
+    height: auto;
+}
+
+.story-card-title,
+.story-card-subtitle {
+    text-align: left;
+    color: $lightGrey;
+}
+
+#story-card-module {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-card-img-container{
+    background: -moz-linear-gradient(90deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.19) 11%, rgba(8,14,28,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.19) 11%, rgba(8,14,28,1) 100%);
+    background: -o-linear-gradient(90deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.19) 11%, rgba(8,14,28,1) 100%);
+    background: -ms-linear-gradient(90deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.19) 11%, rgba(8,14,28,1) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.19) 11%, rgba(8,14,28,1) 100%); 
+}

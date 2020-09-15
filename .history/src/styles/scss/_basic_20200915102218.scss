@@ -27,7 +27,7 @@ html {
 
 h2{
     @include bp(lg) {
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
 
     @include bp(xs) {
@@ -37,7 +37,7 @@ h2{
 
 h3{
     @include bp(lg) {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     @include bp(xs) {

@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3% 10% 2% 10%;
+    margin: 3% 10% 2% 10%;
 }
 
 #movie-subtitle {
@@ -42,5 +42,5 @@
 }
 
 .top-movies-list {
-    border-top: 2px solid $darkGrey;
+    border-top: $containerBoarder;
 }

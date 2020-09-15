@@ -27,21 +27,21 @@ html {
 
 h2{
     @include bp(lg) {
-        font-size: 2.1rem;
+        font-size: 1.9rem;
     }
 
     @include bp(xs) {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     } 
 }
 
 h3{
     @include bp(lg) {
-        font-size: 1.6rem;
+        font-size: 2.5rem;
     }
 
     @include bp(xs) {
-        font-size: 1.4rem;
+        font-size: 2rem;
     } 
 }
 

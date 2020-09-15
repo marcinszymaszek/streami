@@ -1,3 +1,4 @@
+@import "./colors";
 
 //mixins
 
@@ -36,3 +37,6 @@
     align-items: center;
   }
 
+  //variables
+
+  $containerBoarder: 2px solid $darkGrey;

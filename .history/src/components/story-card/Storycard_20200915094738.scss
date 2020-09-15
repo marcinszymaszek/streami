@@ -1,0 +1,52 @@
+@import "../../styles/scss/colors";
+
+.story-card {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    background-color: $cinemaBlack;
+    border-top: 2px solid $darkGrey;
+    padding: 3% 10% 2% 10%;
+}
+
+.story-card-img {
+    transform: scale(0.8);
+    width: 100%;
+    height: auto;
+}
+
+.story-card-title {
+    margin-bottom: 20px;
+}
+
+.story-card-title,
+.story-card-subtitle {
+    text-align: left;
+    color: $lightGrey;
+    line-height: 1.3;
+}
+
+.story-card-img-container {
+    text-align: left;
+}
+
+#story-card-txt-module {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#story-card-img-module {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: right !important;
+    text-align: right !important;
+}
