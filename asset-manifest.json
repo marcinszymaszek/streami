@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/streami/static/css/main.dada8d0f.chunk.css",
+    "main.js": "/streami/static/js/main.01927508.chunk.js",
+    "main.js.map": "/streami/static/js/main.01927508.chunk.js.map",
+    "runtime-main.js": "/streami/static/js/runtime-main.08515900.js",
+    "runtime-main.js.map": "/streami/static/js/runtime-main.08515900.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/streami/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.d87323c1.chunk.js": "/streami/static/js/2.d87323c1.chunk.js",
+    "static/js/2.d87323c1.chunk.js.map": "/streami/static/js/2.d87323c1.chunk.js.map",
+    "index.html": "/streami/index.html",
+    "precache-manifest.7c6c2dc2e384f2fddddfdb4aea16c5e5.js": "/streami/precache-manifest.7c6c2dc2e384f2fddddfdb4aea16c5e5.js",
+    "service-worker.js": "/streami/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/streami/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.dada8d0f.chunk.css.map": "/streami/static/css/main.dada8d0f.chunk.css.map",
+    "static/js/2.d87323c1.chunk.js.LICENSE.txt": "/streami/static/js/2.d87323c1.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/streami/static/media/cinema_hall.a110c322.jpg",
+    "static/media/story_card.png": "/streami/static/media/story_card.92a82bc7.png",
+    "static/media/streami_logo.6065b44e.svg": "/streami/static/media/streami_logo.6065b44e.svg",
+    "static/media/trailer.mp4": "/streami/static/media/trailer.64631840.mp4",
+    "static/media/tv.png": "/streami/static/media/tv.6ab1657c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08515900.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.d87323c1.chunk.js",
+    "static/css/main.dada8d0f.chunk.css",
+    "static/js/main.01927508.chunk.js"
+  ]
+}
