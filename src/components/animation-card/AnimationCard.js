@@ -10,7 +10,7 @@ const AnimationCard = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12" id="card-animation-module">
                             <img className="card-img video-background" src={require("../../styles/tv.png")} alt="story card random movies" />
                             <div className="container-animation">
-                                <video src={require("../../styles/trailer.f4v")}
+                                <video src={require("../../styles/trailer.mp4")}
                                     className="card-video"
                                     type="video/mp4"
                                     autoPlay

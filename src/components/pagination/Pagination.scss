@@ -29,6 +29,7 @@
 #pagination-module {
     background-color: $cinemaBlack;
     @include center-element;
+    padding-bottom: 1%;
 }
 
 .mobile-go-top-link {
