@@ -219,7 +219,6 @@ button {
 .page-link.active {
   background-color: #ffc107 !important;
   color: #080e1c;
-  margin-bottom: 1%;
 }
 
 #pagination-module {
@@ -228,6 +227,7 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1%;
 }
 
 .mobile-go-top-link {
@@ -327,7 +327,6 @@ button {
 .page-link.active {
   background-color: #ffc107 !important;
   color: #080e1c;
-  margin-bottom: 1%;
 }
 
 #pagination-module {
@@ -336,6 +335,7 @@ button {
   text-align: center;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1%;
 }
 
 .mobile-go-top-link {

@@ -20,7 +20,7 @@ const HomePage = () => {
     async function fetchItunesAPI() {
       await axios('https://itunes.apple.com/us/rss/topmovies/limit=100/json')
         .then(result => setMovies(result.data.feed.entry))
-        .catch((error) => console.error(error))
+
     }
     fetchItunesAPI()
   }, [])

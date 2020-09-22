@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *   ,
+ * 4 |     background: $cinemaBlack;
+ *   |                 ^^^^^^^^^^^^
+ *   '
+ *   ..\components\home-page\homepage.scss 4:17  @import
+ *   styles.scss 8:9                             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 4 \2502      background: $cinemaBlack;\d\a   \2502                  ^^^^^^^^^^^^\a   \2575 \a   ..\\components\\home-page\\homepage.scss 4:17  @import\a   styles.scss 8:9                             root stylesheet";
+}
